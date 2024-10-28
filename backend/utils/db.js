@@ -9,3 +9,13 @@ const connectDB = async () => {
     }
 }
 export default connectDB;
+/* 
+const connectDB = async() =>{
+    try{
+        await mongoose.connect(process.env.MONGO_URI);
+        console.log()
+    }catch(error) {
+    console.log(error)
+    }
+    }
+*/ 
